@@ -388,5 +388,22 @@ font-size: 30px;
 .footer{
   margin: auto;
   overflow: hidden;
+  
 }
+  .footer-box{
+    margin: auto;
+    width: auto;
+  }
+}
+ 
+@media (max-width: 440px){
+
+  .contact-me{
+    margin: auto;
+    width: auto;
+  }
+  .footer-box{
+    margin: auto;
+    width: auto;
+  }
 }
