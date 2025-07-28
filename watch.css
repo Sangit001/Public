@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+.firstBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    gap: 30px;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+border: 5px solid gray;
+border-radius: 50%;
+}
+button{
+    background-color: transparent;
+    border: none;
+    padding:0px 20px;
+    background-color: gray;
+    border-radius: 20px;
+    height: 20px;
+    transition: all .3s ease-in-out;
+}
+button:hover{
+    background-color: rgb(189, 189, 189);
+}
+button:active{
+    background-color: gray;
+}
+.buttons{
+    padding: 20px;
+}
+span{
+    font-size: 50px;
+}
